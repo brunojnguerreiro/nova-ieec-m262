@@ -1,4 +1,4 @@
-﻿% NOVA School of Science and Technology
+% NOVA School of Science and Technology
 % Department of Electrical and Computer Engineering
 % IEEC course, fall 2021
 % Bruno Guerreiro (bj.guerreiro@fct.unl.pt)
