@@ -6,7 +6,7 @@
 % Summary: simulate simple dynamic system model of a drone
 
 % Model and simulation parameters
-Tend = 30;
+Tend = 50;
 dT = 0.1;
 N = round(Tend/dT)+1;
 g = 9.8;

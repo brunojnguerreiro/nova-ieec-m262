@@ -10,7 +10,7 @@
 %%%% ONLY CHANGE THIS CODE (adding new parameter lines below)
 
 kp=1; kv=0.5; % results: underdamped, oscilatory, ~60% overshoot, slow, stable
-%kp=1; kv=10; % results: overdamped, slow, stable
+%kp=1; kv=5; % results: overdamped, slow, stable
 %kp=??; kv=??; % results: CHANGE HERE the gains and summare the results
 
 %%%% DO NOT CHANGE THE FOLLOWING CODE OR OTHER FUNCTIONS
