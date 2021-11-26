@@ -25,7 +25,7 @@
         plot(t,z);
         hold off;
         ax = axis();
-        axis([ax(1:2),min(0,ax(3)),max(3,ax(4))]);
+        axis([ax(1:2),min(0,ax(3)),max(2,ax(4))]);
         n = length(LegStrs);
         LegStrs{n+1} = strcat('z_',num2str(n),' (kp=',num2str(kp),' , kv=',num2str(kv),' )');
         legend(LegStrs);
@@ -47,7 +47,7 @@
         xlabel('time [s]');
         ylabel('Drone height [m]');
         ax = axis();
-        axis([ax(1:2),min(0,ax(3)),max(3,ax(4))]);
+        axis([ax(1:2),min(0,ax(3)),max(2,ax(4))]);
         LegStrs={'z_{ref}',strcat('z_1 (kp=',num2str(kp),' , kv=',num2str(kv),' )')};
         legend(LegStrs);
     end

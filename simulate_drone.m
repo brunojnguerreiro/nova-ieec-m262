@@ -6,14 +6,14 @@
 % Summary: simulate simple dynamic system model of a drone
 
 % Model and simulation parameters
-Tend = 50;
+Tend = 70;
 dT = 0.1;
 N = round(Tend/dT)+1;
 g = 9.8;
 m = 4;
 
 % initial conditions
-p0 = [0;0;1];
+p0 = [0;0;0];
 v0 = [0;0;0];
 nx = 6;
 nu = 3;
@@ -21,8 +21,8 @@ x = zeros(nx,N+1);
 lbd = zeros(3,N+1);
 u = zeros(nu,N);
 x(:,1) = [p0;v0];
-x_ref = [[0;0;1;0;0;0]*ones(1,1/dT+1),...
-         [0.5;0;2;0;0;0]*ones(1,(Tend-1)/dT)];
+x_ref = [[0;0;0;0;0;0]*ones(1,1/dT+1),...
+         [0.5;0;1;0;0;0]*ones(1,(Tend-1)/dT)];
 t = 0:dT:Tend;
 
 for k = 1:N,

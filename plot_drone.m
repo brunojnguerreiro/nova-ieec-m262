@@ -64,7 +64,7 @@ function handles = draw_main_body(rot,pos,scale,Colors,handles,is_first)
         set(handles(1,:),'xdata',pts_tri(1,:),'ydata',pts_tri(2,:),'zdata',pts_tri(3,:));
     else
         handles(1,:) = plot3(pts_tri(1,:),pts_tri(2,:),pts_tri(3,:),'LineWidth',0.6,'Color',sstblue);
-    end    
+    end
     
 endfunction
 
